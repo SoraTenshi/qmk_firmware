@@ -29,6 +29,17 @@
 #define CRC8_USE_TABLE
 #define CRC8_OPTIMIZE_SPEED
 
+/* Tap Dance */
+#define TAPPING_TERM 125
+#define TAPPING_TERM_PER_KEY
+
+/* Quick tap */
+#define QUICK_TAP_TERM 0
+
+/* */
+#define SPLIT_LED_STATE_ENABLE
+#define ENCODER_RESOLUTION 4
+
 /* Cirque trackpad over SPI. */
 #define SPI_DRIVER SPID0
 #define SPI_SCK_PIN GP22
